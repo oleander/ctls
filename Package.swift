@@ -4,9 +4,9 @@ import PackageDescription
 
 let package = Package(
     name: "CTLS",
-    pkgConfig: "ctls",
+    pkgConfig: "openssl",
     providers: [
-        .Brew("ctls"),
-        .Apt("ctls")
+        .Brew("openssl"),
+        .Apt("openssl")
     ]
 )
